@@ -8,3 +8,4 @@ ollama
 reportlab
 pandas
 streamlit
+crewai
