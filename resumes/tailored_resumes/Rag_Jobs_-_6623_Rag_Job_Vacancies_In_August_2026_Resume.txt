@@ -1,0 +1,35 @@
+Here's the rewritten content:
+
+OBJECTIVE
+Transformative LLM Engineer with expertise in Generative AI, Python, and Langchain. Proven track record of developing innovative, high-performance applications leveraging cutting-edge technology, with a passion for pushing boundaries in AI-driven startups.
+
+EDUCA TION
+B.T ech in ECE, VVIT College of Engineering, Namburu Expected 2025
+CGPA: 7.0/10 AP, India
+Intermediate (MPC), Narayana Junior College 2019 - 2021
+Percentage: 77.30% AP, India
+
+TECHNICAL AND DESIGN SKILLS
+• Programming Languages: Python, HTML, CSS
+• Frameworks/Tools: Git, GitHub, MySQL, Langchain, TensorFlow
+• AI/ML Technologies: Generative AI, LLM, NLP
+• Certifications: Data Analytics, Generative AI 2.0, UI/UX Design (View)
+EXPERIENCE
+Web Development Intern March 2025 – April 2025
+1stop (Remote)
+• Optimized website performance, reducing load time by 30% using compressed assets and media queries.
+• Enhanced mobile usability by 40% with semantic HTML, CSS improvements, and JS interactivity.
+
+PROJECTS
+My projects - A responsive static website built with HTML, CSS, and Bootstrap to showcase modern web design fundamentals. (Project Link)
+Food Munch— Mobile-first food ordering platform improving usability by 40%. (Project Link)
+JobMatcher Pro — A Python-based OOP project that uses regex, iterators, and skill-matching logic to evaluate candidate-job compatibility and validate candidate data. (Project Link)
+
+CER TIFICA TIONS AND WORKSHOPS
+Data Analytics – Hands-on experience in data analysis and visualization. (View)
+Generative AI 2.0 – Explored advanced generative AI techniques and rapid prototyping. (View)
+UI/UX Design – Redesigned apps in Figma with design thinking principles. (View)
+
+EXTRA-CURRICULAR ACTIVITIES
+Regular contributor to tech podcasts on innovation, cybersecurity, and AI.
+Led hackathon team building ML-powered web solution; active in developer communities.(View)

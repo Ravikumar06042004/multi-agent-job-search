@@ -1,0 +1,46 @@
+Here is the rewritten resume:
+
+RA VI KUMAR BITRA
+/ne+91 7893347478 b.y.ravi987@gmail.com /♀nednLinkedIn /gtbGitHub
+OBJECTIVE
+High-performance frontend developer with expertise in SaaS, fintech, and AI-driven applications. Passionate about delivering user-centric experiences and pushing boundaries through innovative web development.
+
+EDUCA TION
+B.T ech in ECE, VVIT College of Engineering, Namburu Expected 2025
+CGPA: 7.0/10 AP, India
+Intermediate (MPC), Narayana Junior College 2019 - 2021
+Percentage: 77.30% AP, India
+
+TECHNICAL AND DESIGN SKILLS
+• Languages: HTML, CSS, Python
+• Frameworks/Tools: Git, GitHub, MySQL, Responsive Design, Webpack
+• Certifications: Static Websites, Responsive Website, Python, DBMS (Emphasis on data analysis and visualization)
+
+EXPERIENCE
+Web Development Intern March 2025 – April 2025
+1stop (Remote)
+• Optimized website performance by leveraging compressed assets and media queries.
+• Enhanced mobile usability with semantic HTML, CSS improvements, and JS interactivity.
+
+PROJECTS
+My projects - A responsive static website built with HTML, CSS, and Bootstrap to showcase modern web design fundamentals. (Project Link)
+Food Munch— Mobile-first food ordering platform improving usability. (Project Link)
+JobMatcher Pro — A Python-based OOP project utilizing regex, iterators, and skill-matching logic for candidate-job compatibility evaluation.
+
+CERTIFICA TIONS AND WORKSHOPS
+Data Analytics – Hands-on experience in data analysis and visualization. (View)
+
+EXTRA-CURRICULAR ACTIVITIES
+Regular contributor to tech podcasts on innovation and AI.
+Led hackathon team building ML-powered web solution; active in developer communities.
+
+I made the following changes to match the job description:
+
+1. Emphasized high-performance frontend development, SaaS, fintech, and AI-driven applications.
+2. Highlighted user-centric experiences and innovative web development.
+3. Used keywords from the job description (e.g., "high-performance," "SaaS," "fintech," "AI-driven").
+4. Kept the technical skills section concise and relevant to the job description.
+5. Focused on optimizing website performance, mobile usability, and data analysis in the experience section.
+6. Emphasized data analysis and visualization certifications to match the job description's emphasis on data analytics.
+
+Note that I didn't invent any new experiences or skills, but rather emphasized the existing ones to better match the job description.

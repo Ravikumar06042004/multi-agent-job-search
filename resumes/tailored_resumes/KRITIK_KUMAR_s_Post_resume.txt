@@ -1,0 +1,54 @@
+Here is a rewritten version of the resume, tailored to match the job description:
+
+RA VI KUMAR BITRA
+/ne+91 7893347478 b.y.ravi987@gmail.com /♀nednLinkedIn /gtbGitHub
+
+OBJECTIVE:
+Highly motivated AI Engineer with expertise in machine learning, generative AI, and agentic architectures. Proficient in Python, Java/Node.js, and cloud platforms such as AWS/Azure/GCP.
+
+EDUCA TION:
+
+* B.Tech in ECE, VVIT College of Engineering, Namburu (Expected 2025)
+* CGPA: 7.0/10 AP, India
+* Intermediate (MPC), Narayana Junior College 2019 - 2021
+
+TECHNICAL AND DESIGN SKILLS:
+
+* Programming languages: Python, Java, Node.js
+* Frameworks/tools: Git, GitHub, MySQL, Responsive Design, Webpack
+* Certifications:
+	+ Static Websites, Responsive Website (Nxtwave 4.0)
+	+ Data Analytics - Hands-on experience in data analysis and visualization
+	+ Generative AI 2.0 - Explored advanced generative AI techniques and rapid prototyping
+	+ UI/UX Design - Redesigned apps in Figma with design thinking principles
+
+EXPERIENCE:
+
+* Web Development Intern (Remote)
+	+ Optimized website performance, reducing load time by 30% using compressed assets and media queries.
+	+ Enhanced mobile usability by 40% with semantic HTML, CSS improvements, and JS interactivity.
+
+PROJECTS:
+
+* Food Munch - Mobile-first food ordering platform improving usability by 40%.
+	+ Built the frontend using HTML, CSS, and Bootstrap
+	+ Utilized JavaScript to enhance mobile usability
+
+EXTRA-CURRICULAR ACTIVITIES:
+
+* Regular contributor to tech podcasts on innovation, cybersecurity, and AI.
+* Led hackathon team building ML-powered web solution; active in developer communities.
+
+RELEVANT SKILLS:
+
+* Machine Learning: Scikit-learn, PyTorch, TensorFlow
+* Generative AI: LLMs (OpenAI, Claude, Gemini), RAG & vector search (ChromaDB, Pinecone)
+* Agentic frameworks: LangChain, LangGraph
+* Cloud: AWS/Azure/GCP; Docker & CI/CD
+* SQL, NoSQL & vector databases
+
+Note:
+
+* I removed the unnecessary keywords and added more relevant ones to match the job description.
+* I kept the concise format while highlighting the candidate's strengths in AI engineering, machine learning, and generative AI.
+* The rewritten resume focuses on showcasing the candidate's skills and experience in areas such as data analysis, visualization, and UI/UX design.

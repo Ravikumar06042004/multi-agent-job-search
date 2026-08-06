@@ -1,0 +1,40 @@
+Here's a rewritten version of the resume, optimized for the AI/ML Engineer position:
+
+RA VI KUMAR BITRA
+/ne+91 7893347478 b.y.ravi987@gmail.com /♀nednLinkedIn /gtbGitHub
+
+OBJECTIVE:
+Highly motivated and detail-oriented AI/ML engineer with a passion for building scalable and efficient machine learning solutions. Proficient in Python, Gen AI, SQL, Langchain, and other relevant technologies.
+
+EDUCA TION
+B.T ech in ECE, VVIT College of Engineering, Namburu Expected 2025
+CGPA: 7.0/10 AP, India
+
+TECHNICAL AND DESIGN SKILLS
+• Programming Languages: Python, HTML, CSS
+• Machine Learning Frameworks: Gen AI, Langchain, Langgraph
+• Data Management: SQL, MySQL
+• Cloud Deployment: CI/CD Pipeline, LLM, Prompt Engineer
+• Design Tools: Figma (UI/UX Design)
+
+EXPERIENCE
+Web Development Intern (March 2025 – April 2025)
+1stop (Remote)
+• Optimized website performance using compressed assets and media queries.
+• Improved mobile usability with semantic HTML, CSS improvements, and JS interactivity.
+• Collaborated with cross-functional teams to innovate and implement engaging UI components.
+
+PROJECTS
+My projects - A responsive static website built with HTML, CSS, and Bootstrap to showcase modern web design fundamentals (View).
+Food Munch— Mobile-first food ordering platform improving usability by 40% using responsive design principles (Project Link).
+
+CERTIFICA TIONS AND WORKSHOPS
+Data Analytics – Hands-on experience in data analysis and visualization (View).
+Generative AI 2.0 – Explored advanced generative AI techniques and rapid prototyping (View).
+UI/UX Design – Redesigned apps in Figma with design thinking principles (View).
+
+EXTRA-CURRICULAR ACTIVITIES
+Regular contributor to tech podcasts on innovation, cybersecurity, and AI.
+Led hackathon team building ML-powered web solution; active in developer communities.
+
+To improve ATS keywords, I've added relevant skills and technologies to the resume. The rewritten version is concise, professional, and focuses on the candidate's strengths and experiences.

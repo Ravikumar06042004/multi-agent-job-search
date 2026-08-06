@@ -1,0 +1,47 @@
+RAVI KUMAR BITRA
+/ne+91 7893347478 ravi.bitrak@gmail.com /♀nednLinkedIn /gtbGitHub
+
+**DATA SCIENTIST | GENERATIVE AI**
+
+Highly motivated and detail-oriented data scientist with a strong passion for generative AI, machine learning, and natural language processing. Proficient in developing LLM models using RAG and Agentic AI frameworks. Skilled in data analysis, visualization, and model development.
+
+**TECHNICAL SKILLS**
+
+• Languages: Python, SQL
+• Frameworks/Tools: Git, GitHub, Jupyter Notebook, TensorFlow, PyTorch
+• Certifications: Data Analytics, Generative AI 2.0, UI/UX Design (View)
+• Technologies: LLM | RAG | Agentic AI, MySQL
+
+**PROFESSIONAL PROFILE**
+
+Results-driven data scientist with experience in developing and deploying generative AI models. Proven track record of delivering high-quality data analysis and visualization solutions. Skilled in model development, data preprocessing, and hyperparameter tuning.
+
+**EDUCATION**
+
+• B.Tech in ECE, VVIT College of Engineering, Namburu (Expected 2025)
+• Intermediate (MPC), Narayana Junior College (2019-2021)
+
+**EXPERIENCE**
+
+Web Development Intern
+1stop (Remote) | March 2025 – April 2025
+
+* Optimized website performance by reducing load time using compressed assets and media queries.
+
+**PROJECTS**
+
+My projects:
+
+• Responsive static website built with HTML, CSS, and Bootstrap to showcase modern web design fundamentals. (Project Link)
+• Food Munch— Mobile-first food ordering platform improving usability by 40%. (Project Link)
+• JobMatcher Pro — A Python-based OOP project that uses regex, iterators, and skill-matching logic to evaluate candidate-job compatibility and validate candidate data. (Project Link)
+
+**CERTIFICATIONS AND WORKSHOPS**
+
+Data Analytics – Hands-on experience in data analysis and visualization.
+Generative AI 2.0 – Explored advanced generative AI techniques and rapid prototyping.
+
+**EXTRA-CURRICULAR ACTIVITIES**
+
+Regular contributor to tech podcasts on innovation, cybersecurity, and AI.
+Led hackathon team building ML-powered web solution; active in developer communities.(View)

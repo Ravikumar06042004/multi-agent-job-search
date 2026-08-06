@@ -1,0 +1,42 @@
+Here is the rewritten resume content:
+
+RA VI KUMAR BITRA
+
+/ne+91 7893347478 b.y.ravi987@gmail.com /♀nednLinkedIn /gtbGitHub
+
+PROFESSIONAL SUMMARY
+Highly motivated and detail-oriented Artificial Intelligence Engineer with a strong passion for building scalable, AI-powered applications using Python. Experienced in LLMs, RAG pipelines, NLP, and machine learning. Proven ability to design, deploy, and optimize AI models, as well as contribute to system architecture and microservices.
+
+TECHNICAL AND DESIGN SKILLS
+• Artificial Intelligence (AI) and Machine Learning (ML)
+• Generative AI (GenAI) and LLMs
+• Python, FastAPI, API development, and NLP
+• RAG pipelines, LangGraph, and AI workflow orchestration
+• SQL and NoSQL databases, database performance optimization
+• Agile development methodologies, version control systems (Git), and continuous integration/continuous deployment (CI/CD)
+
+EDUCA TION
+B.T ech in ECE, VVIT College of Engineering, Namburu Expected 2025
+CGPA: 7.0/10 AP, India
+Intermediate (MPC), Narayana Junior College 2019 - 2021
+Percentage: 77.30% AP, India
+
+EXPERIENCE
+W eb Development Intern March 2025 – April 2025
+1stop (Remote)
+• Optimized website performance, reducing load time by 30% using compressed assets and media queries.
+• Enhanced mobile usability by 40% with semantic HTML, CSS improvements, and JS interactivity.
+
+PROJECTS
+My projects - A responsive static website built with HTML, CSS, and Bootstrap to showcase modern web design fundamentals. 
+F ood Munch— Mobile-first food ordering platform improving usability by 40%. 
+JobMatcher Pro — A Python-based OOP project that uses regex, iterators, and skill-matching logic to evaluate candidate-job compatibility and validate candidate data.
+
+CER TIFICA TIONS AND WORKSHOPS
+Data Analytics – Hands-on experience in data analysis and visualization. 
+Generative AI 2.0 – Explored advanced generative AI techniques and rapid prototyping. 
+UI/UX Design – Redesigned apps in Figma with design thinking principles.
+
+EXTRA-CURRICULAR ACTIVITIES
+Regular contributor to tech podcasts on innovation, cybersecurity, and AI.
+Led hackathon team building ML-powered web solution; active in developer communities.
