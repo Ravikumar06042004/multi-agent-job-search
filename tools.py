@@ -1,12 +1,22 @@
 import os
 import requests
 from dotenv import load_dotenv
-from crewai.tools import tool
 from job_parser import extract_job_description
 
 load_dotenv()
 
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
+
+# Simple replacement for CrewAI's @tool decorator
+class ToolWrapper:
+    def __init__(self, func):
+        self.func = func
+
+    def run(self, *args, **kwargs):
+        return self.func(*args, **kwargs)
+
+def tool(func):
+    return ToolWrapper(func)
 
 @tool
 def search_jobs(skills: str, experience: str, location: str):
