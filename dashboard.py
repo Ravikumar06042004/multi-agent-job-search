@@ -1,47 +1,72 @@
 import streamlit as st
-import requests
+import sqlite3
 import os
+import pandas as pd
 
-st.set_page_config(page_title="Multi-Agent Job Search Dashboard", layout="wide")
+DB_PATH = os.path.join("data", "jobs.db")
 
-st.title("Multi-Agent Job Search Dashboard")
-st.write("View job matches and generated resumes")
+st.set_page_config(page_title="AI Job Automation Dashboard", layout="wide")
 
-JOBS_API = "http://127.0.0.1:8000/jobs"
+st.title("AI Job Automation Dashboard")
+st.write("Naukri + LinkedIn AI Job Tracking System")
 
-response = requests.get(JOBS_API)
+conn = sqlite3.connect(DB_PATH)
 
-if response.status_code == 200:
-    jobs = response.json()
+jobs = pd.read_sql_query(
+    """
+    SELECT company, role, location, experience, match_score, resume_path
+    FROM jobs
+    ORDER BY id DESC
+    """,
+    conn
+)
 
-    st.subheader("Job Matches")
+applications = pd.read_sql_query(
+    """
+    SELECT company, role, status, applied_at
+    FROM applications
+    ORDER BY id DESC
+    """,
+    conn
+)
 
-    for job in jobs:
-        with st.container():
-            st.markdown(f"### {job['company']}")
-            st.write(f"**Role:** {job['role']}")
-            st.write(f"**Location:** {job['location']}")
-            st.write(f"**Skills:** {job['skills']}")
-            st.write(f"**Experience:** {job['experience']}")
-            st.write(f"**Match Score:** {job['match_score']}%")
+conn.close()
 
-            resume_path = job.get("resume_path")
+col1, col2, col3 = st.columns(3)
 
-            if resume_path and os.path.exists(resume_path):
-                with open(resume_path, "rb") as file:
-                    st.download_button(
-                        label="Download Resume",
-                        data=file,
-                        file_name=os.path.basename(resume_path),
-                        mime="application/pdf",
-                        key=job["company"]
-                    )
-            else:
-                st.warning("Resume not available")
+with col1:
+    st.metric("Total Jobs", len(jobs))
 
-            st.divider()
+with col2:
+    resumes = jobs["resume_path"].notna().sum()
+    st.metric("Resumes Generated", int(resumes))
 
-    st.success(f"Total Jobs: {len(jobs)}")
+with col3:
+    applied = len(applications[applications["status"] == "Applied"])
+    st.metric("Applied Jobs", int(applied))
 
+st.divider()
+
+st.subheader("Job Matches")
+
+for _, job in jobs.iterrows():
+    with st.container(border=True):
+        st.markdown(f"### {job['company']}")
+        st.write(f"**Role:** {job['role']}")
+        st.write(f"**Location:** {job['location']}")
+        st.write(f"**Experience:** {job['experience']}")
+        st.write(f"**Match Score:** {job['match_score']}%")
+
+        if pd.notna(job['resume_path']):
+            st.success("Tailored Resume Generated")
+        else:
+            st.warning("Resume Pending")
+
+st.divider()
+
+st.subheader("Application Queue")
+
+if len(applications) == 0:
+    st.info("No applications tracked yet.")
 else:
-    st.error("Could not connect to FastAPI backend.")
+    st.dataframe(applications, width="stretch")

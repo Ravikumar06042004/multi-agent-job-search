@@ -1,11 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from pipeline import run_pipeline
-from application_tracker import (
-    create_application_table,
-    get_applications,
-    add_application,
-)
+from application_tracker import create_application_table, get_applications, add_application
 import sqlite3
 import os
 
@@ -13,20 +9,20 @@ app = FastAPI(title="Multi-Agent Job Search API")
 
 DB_PATH = "data/jobs.db"
 
-# ---------- Home ----------
+# ---------------- Home ----------------
 
 @app.get("/")
 def home():
     return {"message": "Multi-Agent Job Search System is running"}
 
-# ---------- Run Pipeline ----------
+# ---------------- Run Pipeline ----------------
 
 @app.post("/run-pipeline")
 def run():
     run_pipeline()
     return {"status": "Pipeline executed successfully"}
 
-# ---------- Get Jobs ----------
+# ---------------- Get Jobs ----------------
 
 @app.get("/jobs")
 def get_jobs():
@@ -50,12 +46,11 @@ def get_jobs():
 
     return [dict(row) for row in rows]
 
-# ---------- Get Applications ----------
+# ---------------- Get Applications ----------------
 
 @app.get("/applications")
 def applications():
     create_application_table()
-
     apps = get_applications()
 
     return [
@@ -63,12 +58,12 @@ def applications():
             "company": app[0],
             "role": app[1],
             "applied_date": app[2],
-            "status": app[3],
+            "status": app[3]
         }
         for app in apps
     ]
 
-# ---------- Apply to a Job ----------
+# ---------------- Apply to a Job ----------------
 
 class ApplicationRequest(BaseModel):
     company: str

@@ -4,8 +4,13 @@ import ollama
 import os
 import re
 
-RESUME_PATH = "resumes/master_resume.pdf"
-OUTPUT_DIR = "resumes/tailored_resumes"
+# Base directory of the project
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Absolute paths
+RESUME_PATH = os.path.join(BASE_DIR, "resumes", "master_resume.pdf")
+OUTPUT_DIR = os.path.join(BASE_DIR, "resumes", "tailored_resumes")
+
 
 def read_resume():
     reader = PdfReader(RESUME_PATH)
@@ -18,8 +23,10 @@ def read_resume():
 
     return text
 
+
 def safe_filename(name):
     return re.sub(r'[\\\\/:*?"<>|]', "", name).replace(" ", "_")
+
 
 def tailor_resume(job_description, company_name):
     resume_text = read_resume()
@@ -69,10 +76,11 @@ Rules:
 
     return pdf_path
 
+
 if __name__ == "__main__":
     sample_jd = """
-    Looking for a Python developer with experience in FastAPI, Docker,
-    SQL, RAG, LLM, LangChain, and API development.
-    """
+Looking for a Python developer with experience in FastAPI, Docker,
+SQL, RAG, LLM, LangChain, and API development.
+"""
 
     tailor_resume(sample_jd, "Sample_Company")
